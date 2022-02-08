@@ -1,0 +1,48 @@
+/*GENERAL CSS*/
+html, body{height: 100%;margin: 0;scroll-behavior: smooth;}
+
+/*POSITIONS*/
+.block{min-height: 100%;padding-top: 200px;}
+.model{padding: 40px 40px 0px 40px;}
+.formm{background: #fff; padding: 25px; border-radius: 5px;}
+.center-align {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.title{color: #fff;text-align: center;font-weight: 500;}
+.row{margin-bottom: 0;}
+.home{background-image: url(../img/background.jpg);background-repeat: no-repeat;background-size: cover;}
+
+/*SIZES*/
+.logo{width: 200px; margin-top: 22px;}
+.logo2{width: 150px;}
+.pic-size1{width: 140px;}
+.pic-size2{width: 180px;}
+.pic-p{padding-top: 25px;}
+
+/*COLORS*/
+.background-color1{background: #ba68c8;}
+.background-color2{background: #111;}
+.hr-color{background-color: #555;height: 2px;border: none;}
+.input-field .prefix.active {color: #ba68c8;}
+
+/*NAVBAR*/
+.container{width: 90%;}
+nav {height: 80px;line-height: 80px;}
+nav.nav-extended .nav-wrapper {min-height: 80px;}
+nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons, nav a.sidenav-trigger i {height: 80px;line-height: 80px;}
+.navbar-fixed {position: absolute;height: 80px;}
+nav li a{color: #fff;font-size: 1.1rem;font-weight: 600;}
+
+/*SIDENAV*/
+.sidenav{background-color: #ba68c8;}
+.sidenav li a{color: #fff;font-size: 1.5rem;margin: 40px 0;font-weight: 600;
+font-family: "Trebuchet MS", Helvetica, sans-serif;}
+
+/*DROPDOWN*/
+.dropdown-content li > a, .dropdown-content li > span {color: #111;}
+
+/*BREAK POINTS*/
+/*SMALL DEVICES*/
+@media only screen and (max-width: 600px) {
+.formm{margin-bottom: 50px;}	
+}
